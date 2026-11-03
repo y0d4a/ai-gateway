@@ -27,7 +27,7 @@ google-generativeai = "^0.8.5"
 anthropic = "^0.49.0"
 
 [tool.poetry.group.dev.dependencies]
-black = "^24.2.0"
+black = ">=24.2,<27.0"
 ruff = "^0.3.0"
 mypy = "^1.15.0"
 pytest = "^8.3.4"
